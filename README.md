@@ -22,23 +22,23 @@ cd chat-app-react-nodejs
 ```
 Now rename env files from .env.example to .env
 ```shell
-cd public
+cd forntend
 mv .env.example .env
 cd ..
-cd server
+cd backend
 mv .env.example .env
 cd ..
 ```
 
 Now install the dependencies
 ```shell
-cd server
+cd backend
 yarn
 cd ..
-cd public
+cd forntend
 yarn
 ```
-We are almost done, Now just start the development server.
+We are almost done, Now just start the development backend.
 
 For Frontend.
 ```shell
