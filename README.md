@@ -42,14 +42,14 @@ We are almost done, Now just start the development server.
 
 For Frontend.
 ```shell
-cd public
+cd frontend
 yarn start
 ```
 For Backend.
 
 Open another terminal in folder, Also make sure mongodb is running in background.
 ```shell
-cd server
+cd backend
 yarn start
 ```
 Done! Now open localhost:3000 in your browser.
